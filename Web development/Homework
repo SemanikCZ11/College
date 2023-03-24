@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<title>Vypočet</title>
+<script type="text/Javascript">
+
+function nactimp()
+{
+  a=document.forms[0].MesP.value;
+  //alert(a);
+}
+function nactivys()
+{
+  b=document.forms[0].vyn.value;
+  //alert(b);
+}
+function nactiinflace()
+{
+  c=document.forms[0].inf.value;
+  //alert(c);
+}
+function sporeni()
+{
+  d=document.forms[0].spor.value;
+  //alert(d);
+}
+function pocitejpris(t)
+{
+ var s,vyn,roc;
+
+      s=document.forms[0].MesP.value;
+        
+
+    if (s<300)
+     {
+         vyn=0;
+        //alert(vys);
+     }
+    else if(s==300)
+      {
+        vyn=90;
+      }  
+
+    else if(s>300 && s<1000 )
+     {
+        vyn=(1000-s)*0.02+90;
+         //alert(vyn);
+     }
+    else vyn=230;
+        //alert(vyn);
+
+
+  roc=((s*1)+(vyn*1))*12;
+     //alert(roc)
+ return roc;
+}
+
+function spocite()
+{
+
+  var i,r,t,v,f,vyn,vys=0;
+
+     f=document.forms[0].inf.value;
+     v=document.forms[0].vyn.value;
+     t=pocitejpris();
+     r=document.forms[0].spor.value;
+     
+
+      vyn=(v*1+100)/100-(f*1)/100
+       //alert(vyn);
+
+       for(i=1;i<=r;i++)
+         vys=(vys+t)*vyn;
+     
+    
+    
+
+   vys=vys.toFixed(0);
+ alert(vys);
+}
+
+
+
+
+
+</script>
+<H1>Kalkulačka pro výpočet Penzijního připijoštění</H1><br>
+<form action="pocitej.html">
+Zadejte měsíční příspěvek:<input type="text" name="MesP"><br>
+Očekávaný výnos<input type="text" name="vyn"><br>
+Očekávaná Inflace<input type="text" name="inf"><br>
+Doba Spoření <input type="text" name="spor"><br>
+
+<input type="button" name="tlacitko" value="počítej" onclick="nactimp();nactivys();nactiinflace();sporeni();pocitejpris();spocite()">
+</form>
