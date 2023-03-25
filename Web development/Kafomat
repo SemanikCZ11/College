@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<title>Vypocet</title>
+<style type="text/css">
+h1{margin-left : 8em;
+   color: red;
+}
+table{margin-left : 8em;
+      font-size : 15pt;
+      color : Green;
+}
+
+</style>
+<script type ="text/javascript">
+function vybranyrb(cudlik)
+{
+    var i=0,vybrany=-1;
+
+   for(;i<cudlik.length;i++)
+      if(cudlik[i].checked)
+          vybrany = i;
+  
+         return vybrany;
+}
+
+
+function pocitej()
+{
+            var napoj=document.forms[0].napoj,
+                vybrnapoj=vybranyrb(napoj);
+
+           switch(vybrnapoj)
+           {
+              case 0:
+              case 1:
+              case 2: alert('Cena je: '+(vybranyrb(document.forms[0].cukr)+7+vybrnapoj));
+              break;
+              case 3: alert('Cena je: '+(9+vybranyrb(document.forms[0].sul)/2));              
+              break;
+              case 4: alert('Cena je: '+(6+(document.forms[0].rum.checked?5:0)));
+              break;
+             }
+
+
+
+
+}
+function povol(co)
+{ 
+      var cukr=document.forms[0].cukr, sul=document.forms[0].sul,rum=document.forms[0].rum,i;
+
+      for(i=0;i<cukr.length;cukr[i++].disabled=(co!=1));
+      for(i=0;i<sul.length;sul[i++].disabled=(co!=2));
+      rum.disabled=(co!=3);
+
+     if(co!=1)
+            for(i=0;i<cukr.length;cukr[i++].checked=false);
+     if(co!=2)
+            for(i=0;i<sul.length;sul[i++].checked=false);
+     if(co!=3)
+         rum.checked=false;
+
+}
+</script>
+<h1>!!!!!!!KAFOMAT!!!!!!!</h1>
+<form onsubmit="pocitej();return false;">
+<table border = "1">
+<caption>Zde si můžete vybrat Nápoj a přísady</caption>
+<tr><td rowspan="5">Nápoj<td>Espreso<td><input type=radio name=napoj onclick="povol(1);">
+<tr><td>Capuccino<td><input type=radio name=napoj onclick="povol(1);">
+<tr><td>Latte<td><input type=radio name=napoj onclick="povol(1);">
+<tr><td>Polevka<td><input type=radio name=napoj onclick="povol(2);">
+<tr><td>Caj<td><input type=radio name=napoj onclick="povol(3);">
+<tr><td rowspan="3">Přísady<td>Cukr<td><input type=radio name=cukr disabled><input type=radio name=cukr disabled><input type=radio name=cukr disabled><input type=radio name=cukr disabled><input type=radio name=cukr disabled><input type=radio name=cukr disabled>
+<tr><td>Sůl<td><input type=radio name=sul disabled><input type=radio name=sul disabled><input type=radio name=sul disabled><input type=radio name=sul disabled><input type=radio name=sul disabled><input type=radio name=sul disabled>
+<tr><td>Rum<td><input type=checkbox name=rum disabled>
+</table>
+<input type=submit value="Počitej">
+</form>
