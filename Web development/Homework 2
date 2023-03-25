@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<title>Vypocet</title>
+<script type="text/javascript">
+
+function nactimzdu()
+{
+  a=document.forms[0].hruby.value;
+ //alert(a);
+}
+function nactipojistku()
+{ 
+  b=document.forms[0].poj.value;
+  //alert(b);
+}
+function polozky()
+{
+  c=document.forms[0].poloz.value;
+  //alert(c);
+
+}
+function vybrradio(r)
+{
+    var i,vybr =-1;
+  for(i=0;i<r.length;i++)
+    if(r[i].checked)
+        vybr=i;
+
+  return vybr;
+}
+function spoctidan()
+{
+   dan=(((a*1)+(b*1)-(c*1))*0.15);
+   //alert(dan);
+}
+
+function slevych()
+{
+
+     var man=document.forms[0].manzel,stud=document.forms[0].student;
+
+        if(man.checked== true)
+              pom=24840*1;
+                            
+           
+        else if(stud.checked==true)
+              pom=4020*1;
+                            
+           
+        else if ((man.checked== true) && (stud.checked==true))
+              pom=28860*1;
+
+        else pom=0;          
+   
+  //alert(pom)
+}
+function slevyrd()
+{
+   var kid=document.forms[0].dite,
+        vybrdite=vybrradio(kid),sleva;
+
+
+     switch(vybrdite)
+        {
+            case -1:sleva=0;
+               break;
+            case 0: sleva=11640;
+               break;
+            case 1:sleva=11640*2;
+               break;
+            case 2:sleva=11640*3;
+               break;
+            case 3:sleva=11640*4;
+                break;
+            case 4:sleva=11640*5;
+                 break;
+        }
+ 
+    slevaDT=sleva;
+}
+function vys()
+{
+   var vys=0;
+
+   vys=dan-pom-slevaDT;
+  
+   alert('Výpočet pro dan z příjmu je '+ vys)
+
+}
+</script>
+<H1>Výpočet pro Daň z přijmů</h1>
+<p><br>
+<form action="Vypocet.html">
+Zadejte vaší hrubou mzdu<input type="text" name="hruby"><br>
+Zadejte pojistne od zamestnavatele<input type="text" name="poj"><br>
+Odečitatelné položky<input type="text" name="poloz"><br>
+
+<table border="1">
+<caption><b>Zaskrtněte slevy na které máte nárok</b></caption>
+<tr><td rowspan="3">Slevy<td>Na manželku/manžela<td><input type="checkbox" name ="manzel">
+<tr><td>Na studiu<td><input type="checkbox" name ="student">
+<tr><td>Na dítě<td><input type="radio" name="dite"><input type="radio" name="dite"><input type="radio" name="dite">
+<input type="radio" name="dite">
+<input type="radio" name="dite">
+</table>
+
+<input type="button" name="klik" value="spočítej" onclick="nactimzdu();nactipojistku();polozky();spoctidan();slevych();slevyrd();vys();"><br>
+
+</form>
