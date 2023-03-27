@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Absolutni_hodnota
+{
+    class Program
+    {
+        
+        static int Abs (int hodnota)
+        {
+
+            if (hodnota < 0) return -hodnota;
+            else return hodnota;
+
+
+        }        
+        
+        static void Main(string[] args)
+        {
+
+            int x = -5, y = 4;
+            int xAbs = Abs(x);
+            Console.WriteLine("Absolutni hodnota {0} je {1}", x, xAbs);
+            Console.WriteLine("Absolutni hodnota {0} je {1}", y, Abs(y));
+            Console.ReadLine();
+        }
