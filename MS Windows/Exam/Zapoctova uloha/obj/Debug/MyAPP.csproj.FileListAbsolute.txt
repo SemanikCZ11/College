@@ -1,0 +1,27 @@
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\bin\Debug\Zapoctova uloha.exe.config
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\bin\Debug\Zapoctova uloha.exe
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\bin\Debug\Zapoctova uloha.pdb
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova_uloha.Form1.resources
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova_uloha.Form2.resources
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova_uloha.Form3.resources
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova_uloha.Properties.Resources.resources
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\MyAPP.csproj.GenerateResource.cache
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\MyAPP.csproj.CoreCompileInputs.cache
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova uloha.exe
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova uloha.pdb
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\MyAPP.csproj.AssemblyReference.cache
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova_uloha.Resourcecs_CZ.resources
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Exam\Zapoctova uloha\bin\Debug\Zapoctova uloha.exe.config
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Exam\Zapoctova uloha\bin\Debug\Zapoctova uloha.exe
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Exam\Zapoctova uloha\bin\Debug\Zapoctova uloha.pdb
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Exam\Zapoctova uloha\obj\Debug\MyAPP.csproj.AssemblyReference.cache
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Exam\Zapoctova uloha\obj\Debug\MyAPP.csproj.SuggestedBindingRedirects.cache
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Exam\Zapoctova uloha\obj\Debug\Zapoctova_uloha.Form1.resources
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Exam\Zapoctova uloha\obj\Debug\Zapoctova_uloha.Form2.resources
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Exam\Zapoctova uloha\obj\Debug\Zapoctova_uloha.Form3.resources
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Exam\Zapoctova uloha\obj\Debug\Zapoctova_uloha.Properties.Resources.resources
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Exam\Zapoctova uloha\obj\Debug\Zapoctova_uloha.Resourcecs_CZ.resources
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Exam\Zapoctova uloha\obj\Debug\MyAPP.csproj.GenerateResource.cache
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Exam\Zapoctova uloha\obj\Debug\MyAPP.csproj.CoreCompileInputs.cache
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Exam\Zapoctova uloha\obj\Debug\Zapoctova uloha.exe
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Exam\Zapoctova uloha\obj\Debug\Zapoctova uloha.pdb

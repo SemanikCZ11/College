@@ -1,0 +1,13 @@
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\bin\Debug\Zapoctova uloha.exe.config
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\bin\Debug\Zapoctova uloha.exe
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\bin\Debug\Zapoctova uloha.pdb
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova uloha.csproj.AssemblyReference.cache
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova_uloha.Form1.resources
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova_uloha.Properties.Resources.resources
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova uloha.csproj.GenerateResource.cache
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova uloha.csproj.CoreCompileInputs.cache
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova uloha.exe
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova uloha.pdb
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova_uloha.Form2.resources
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova_uloha.Form3.resources
+C:\Users\lseme\source\repos\Exam\Zapoctova uloha\obj\Debug\Zapoctova_uloha.TextResources.resx.Resourcecs_CZ.resources

@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="answer1" xml:space="preserve">
+    <value>90 sekund</value>
+  </data>
+  <data name="answer10" xml:space="preserve">
+    <value>srv.Q</value>
+  </data>
+  <data name="answer11" xml:space="preserve">
+    <value>phase.O</value>
+  </data>
+  <data name="answer12" xml:space="preserve">
+    <value>Soubory YAML spoléhajíci se na správné odsazení</value>
+  </data>
+  <data name="answer13" xml:space="preserve">
+    <value>Soubory YAML založené na XM</value>
+  </data>
+  <data name="answer14" xml:space="preserve">
+    <value>Soubory YAML které jsou platné v souboru JSON.</value>
+  </data>
+  <data name="answer15" xml:space="preserve">
+    <value>Event().</value>
+  </data>
+  <data name="answer16" xml:space="preserve">
+    <value>Julia</value>
+  </data>
+  <data name="answer17" xml:space="preserve">
+    <value>Java</value>
+  </data>
+  <data name="answer18" xml:space="preserve">
+    <value>JavaScript</value>
+  </data>
+  <data name="answer19" xml:space="preserve">
+    <value>Přesně jednu</value>
+  </data>
+  <data name="answer2" xml:space="preserve">
+    <value>30 sekund</value>
+  </data>
+  <data name="answer20" xml:space="preserve">
+    <value>Přesně tři</value>
+  </data>
+  <data name="answer21" xml:space="preserve">
+    <value>Několik</value>
+  </data>
+  <data name="answer22" xml:space="preserve">
+    <value>10420</value>
+  </data>
+  <data name="answer23" xml:space="preserve">
+    <value>8192</value>
+  </data>
+  <data name="answer24" xml:space="preserve">
+    <value>14200</value>
+  </data>
+  <data name="answer25" xml:space="preserve">
+    <value>Throw</value>
+  </data>
+  <data name="answer26" xml:space="preserve">
+    <value>Emit</value>
+  </data>
+  <data name="answer27" xml:space="preserve">
+    <value>Stream</value>
+  </data>
+  <data name="answer28" xml:space="preserve">
+    <value>2 GB</value>
+  </data>
+  <data name="answer29" xml:space="preserve">
+    <value>2,5 GB</value>
+  </data>
+  <data name="answer3" xml:space="preserve">
+    <value>60 sekund</value>
+  </data>
+  <data name="answer30" xml:space="preserve">
+    <value>1,5 GB</value>
+  </data>
+  <data name="answer31" xml:space="preserve">
+    <value>50 tisíc požadavků za hodinu pro všechny uživatele</value>
+  </data>
+  <data name="answer32" xml:space="preserve">
+    <value>100 tisíc požadavků za hodinu pro všechny uživatele</value>
+  </data>
+  <data name="answer33" xml:space="preserve">
+    <value>10 tisíc požadavků za hodinu pro všechny uživatele</value>
+  </data>
+  <data name="answer34" xml:space="preserve">
+    <value>0-1</value>
+  </data>
+  <data name="answer35" xml:space="preserve">
+    <value>0-n</value>
+  </data>
+  <data name="answer36" xml:space="preserve">
+    <value>1-n</value>
+  </data>
+  <data name="answer37" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="answer38" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="answer39" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="answer4" xml:space="preserve">
+    <value>1 měsíc</value>
+  </data>
+  <data name="answer40" xml:space="preserve">
+    <value>Jméno organizace</value>
+  </data>
+  <data name="answer41" xml:space="preserve">
+    <value>Revezní názvy Domen</value>
+  </data>
+  <data name="answer42" xml:space="preserve">
+    <value>Kaskády zkratek</value>
+  </data>
+  <data name="answer43" xml:space="preserve">
+    <value>Globalni učet</value>
+  </data>
+  <data name="answer44" xml:space="preserve">
+    <value>Podúčet</value>
+  </data>
+  <data name="answer45" xml:space="preserve">
+    <value>Adresář</value>
+  </data>
+  <data name="answer5" xml:space="preserve">
+    <value>1 rok</value>
+  </data>
+  <data name="answer6" xml:space="preserve">
+    <value>100 dní</value>
+  </data>
+  <data name="answer7" xml:space="preserve">
+    <value>Programové chyby</value>
+  </data>
+  <data name="answer8" xml:space="preserve">
+    <value>Nečekané chyby</value>
+  </data>
+  <data name="answer9" xml:space="preserve">
+    <value>Běhové chyby</value>
+  </data>
+  <data name="bnext" xml:space="preserve">
+    <value>Dále</value>
+  </data>
+  <data name="bsend" xml:space="preserve">
+    <value>Odeslat</value>
+  </data>
+  <data name="bzpet" xml:space="preserve">
+    <value>Zpět</value>
+  </data>
+  <data name="checkbox" xml:space="preserve">
+    <value>Souhlasím s podmínkamy zkoušky</value>
+  </data>
+  <data name="heslo" xml:space="preserve">
+    <value>Heslo</value>
+  </data>
+  <data name="konec" xml:space="preserve">
+    <value>Konec</value>
+  </data>
+  <data name="konec3" xml:space="preserve">
+    <value>Konec</value>
+    <comment>3 form</comment>
+  </data>
+  <data name="label111" xml:space="preserve">
+    <value>Výsledek: </value>
+    <comment>3 form</comment>
+  </data>
+  <data name="label41" xml:space="preserve">
+    <value>Nezadali jste správně heslo</value>
+  </data>
+  <data name="label42" xml:space="preserve">
+    <value>Nezadali jste správně své jméno</value>
+  </data>
+  <data name="label43" xml:space="preserve">
+    <value>Nezadali jste správně své jméno, heslo nebo jste nesouhlasili s podmínkami.</value>
+  </data>
+  <data name="podminka" xml:space="preserve">
+    <value>Nesouhlasili jste s podmínkami.</value>
+  </data>
+  <data name="pozice" xml:space="preserve">
+    <value>Otázka: </value>
+  </data>
+  <data name="question1" xml:space="preserve">
+    <value>Jaký je standardní časový limit kontroly stavu aplikace Cloud Foundry?</value>
+    <comment>otazka</comment>
+  </data>
+  <data name="question10" xml:space="preserve">
+    <value>Jaká je maximální velikost balíčku aplikace při nasazení v systému SAP BTP?</value>
+    <comment>otazka</comment>
+  </data>
+  <data name="question11" xml:space="preserve">
+    <value>Jaký limit rychlosti požadavků se v systému SAP BTP snaží chránit rozhraní API Cloud Foundry před zneužitím?</value>
+    <comment>otazka</comment>
+  </data>
+  <data name="question12" xml:space="preserve">
+    <value>Kolik správců lze přiřadit ke globálnímu účtu?</value>
+    <comment>otazka</comment>
+  </data>
+  <data name="question13" xml:space="preserve">
+    <value>Jaká hodnota chyb je přiřazena záporné kritičnosti?</value>
+    <comment>otazka</comment>
+  </data>
+  <data name="question14" xml:space="preserve">
+    <value>Co doporučuje společnost SAP používat pro konstrukci názvů oborů názvů při používání oborů názvů?</value>
+    <comment>otazka</comment>
+  </data>
+  <data name="question15" xml:space="preserve">
+    <value>Na jaké úrovni můžete vybrat region?</value>
+    <comment>otazka</comment>
+  </data>
+  <data name="question2" xml:space="preserve">
+    <value>Po jaké době GitHub odstraní nepoužívané osobní přístupové tokeny?</value>
+    <comment>otazka</comment>
+  </data>
+  <data name="question3" xml:space="preserve">
+    <value>Které typy chyb byste podle osvědčených postupů SAP CAP NEMĚLI zachytit?</value>
+    <comment>otazka</comment>
+  </data>
+  <data name="question4" xml:space="preserve">
+    <value>Který vzor použijete pro registraci obsluhy události?</value>
+    <comment>otazka</comment>
+  </data>
+  <data name="question5" xml:space="preserve">
+    <value>Jaké jsou některé vlastnosti souborů YAML?</value>
+    <comment>otazka</comment>
+  </data>
+  <data name="question6" xml:space="preserve">
+    <value>Který programovací jazyk je založen na JSON?</value>
+    <comment>question</comment>
+  </data>
+  <data name="question7" xml:space="preserve">
+    <value>Kolik obsluh událostí lze zaregistrovat pro jednu fázi ?</value>
+    <comment>otazka</comment>
+  </data>
+  <data name="question8" xml:space="preserve">
+    <value>Jaký je maximální počet spuštěných vláken na instanci aplikace?</value>
+    <comment>otazka</comment>
+  </data>
+  <data name="question9" xml:space="preserve">
+    <value>Které klíčové slovo se v systému CAP používá k odesílání událostí?</value>
+    <comment>otazka</comment>
+  </data>
+  <data name="start" xml:space="preserve">
+    <value>Začatek zkošky</value>
+  </data>
+  <data name="user.Text" xml:space="preserve">
+    <value>Uživatel : </value>
+  </data>
+  <data name="uzivatel" xml:space="preserve">
+    <value>Jméno a příjmení</value>
+  </data>
+  <data name="vitej" xml:space="preserve">
+    <value>Vítejte na zkoušce C_CPE_14</value>
+  </data>
+  <data name="zacatek" xml:space="preserve">
+    <value>Začít Test</value>
+  </data>
+</root>

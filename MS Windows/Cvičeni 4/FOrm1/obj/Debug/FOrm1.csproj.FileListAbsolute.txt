@@ -1,0 +1,22 @@
+C:\Users\lseme\source\repos\Cvičeni 4\FOrm1\bin\Debug\FOrm1.exe.config
+C:\Users\lseme\source\repos\Cvičeni 4\FOrm1\bin\Debug\FOrm1.exe
+C:\Users\lseme\source\repos\Cvičeni 4\FOrm1\bin\Debug\FOrm1.pdb
+C:\Users\lseme\source\repos\Cvičeni 4\FOrm1\obj\Debug\FOrm1.csproj.AssemblyReference.cache
+C:\Users\lseme\source\repos\Cvičeni 4\FOrm1\obj\Debug\FOrm1.Form1.resources
+C:\Users\lseme\source\repos\Cvičeni 4\FOrm1\obj\Debug\FOrm1.Properties.Resources.resources
+C:\Users\lseme\source\repos\Cvičeni 4\FOrm1\obj\Debug\FOrm1.csproj.GenerateResource.cache
+C:\Users\lseme\source\repos\Cvičeni 4\FOrm1\obj\Debug\FOrm1.csproj.CoreCompileInputs.cache
+C:\Users\lseme\source\repos\Cvičeni 4\FOrm1\obj\Debug\FOrm1.exe
+C:\Users\lseme\source\repos\Cvičeni 4\FOrm1\obj\Debug\FOrm1.pdb
+C:\Users\lseme\source\repos\Cvičeni 4\FOrm1\obj\Debug\FOrm1.Form2.resources
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Cvičeni 4\FOrm1\bin\Debug\FOrm1.exe.config
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Cvičeni 4\FOrm1\bin\Debug\FOrm1.exe
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Cvičeni 4\FOrm1\bin\Debug\FOrm1.pdb
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Cvičeni 4\FOrm1\obj\Debug\FOrm1.csproj.AssemblyReference.cache
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Cvičeni 4\FOrm1\obj\Debug\FOrm1.Form1.resources
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Cvičeni 4\FOrm1\obj\Debug\FOrm1.Form2.resources
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Cvičeni 4\FOrm1\obj\Debug\FOrm1.Properties.Resources.resources
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Cvičeni 4\FOrm1\obj\Debug\FOrm1.csproj.GenerateResource.cache
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Cvičeni 4\FOrm1\obj\Debug\FOrm1.csproj.CoreCompileInputs.cache
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Cvičeni 4\FOrm1\obj\Debug\FOrm1.exe
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\3.Semester\MS Windows\Cvičeni\Cvičeni 4\FOrm1\obj\Debug\FOrm1.pdb
