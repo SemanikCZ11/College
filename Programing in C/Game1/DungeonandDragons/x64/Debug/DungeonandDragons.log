@@ -1,0 +1,11 @@
+﻿  DungeonandDragons.cpp
+C:\Users\lseme\source\repos\Game1\DungeonandDragons\DungeonandDragons.cpp(460,32): warning C4566: Znak, který reprezentuje universal-character-name \uAC8C, nemůže být reprezentovaný v aktuální znakové stránce (1250).
+C:\Users\lseme\source\repos\Game1\DungeonandDragons\DungeonandDragons.cpp(460,32): warning C4566: Znak, který reprezentuje universal-character-name \uC784, nemůže být reprezentovaný v aktuální znakové stránce (1250).
+C:\Users\lseme\source\repos\Game1\DungeonandDragons\DungeonandDragons.cpp(460,32): warning C4566: Znak, který reprezentuje universal-character-name \uC885, nemůže být reprezentovaný v aktuální znakové stránce (1250).
+C:\Users\lseme\source\repos\Game1\DungeonandDragons\DungeonandDragons.cpp(460,32): warning C4566: Znak, který reprezentuje universal-character-name \uB8CC, nemůže být reprezentovaný v aktuální znakové stránce (1250).
+C:\Users\lseme\source\repos\Game1\DungeonandDragons\DungeonandDragons.cpp(123,9): warning C4101: treasure_room: neodkazovaná lokální proměnná
+  Patro1.cpp
+  Generování kódu...
+Patro1.obj : error LNK2001: Nerozpoznaný externí symbol "struct Location stairs1" (?stairs1@@3ULocation@@A)
+Patro1.obj : error LNK2001: Nerozpoznaný externí symbol "struct Location laundry" (?laundry@@3ULocation@@A)
+C:\Users\lseme\source\repos\Game1\x64\Debug\DungeonandDragons.exe : fatal error LNK1120: Počet nerozpoznaných externích typů: 2
