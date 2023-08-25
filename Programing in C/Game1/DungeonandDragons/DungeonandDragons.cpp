@@ -322,13 +322,14 @@ int main() {
     int light = 0;
     int fakeerror = 0;
 
+    first_floor_loop(current_location, &playerInventory);//test predavani lokace a inventare
+
     while (1) {
 
         if (current_location == &stairs1) {
 
             printf("Adresa current_location v main.c: %p\n", (void*)current_location);
             first_floor_loop(current_location, &playerInventory);
-            
         }
         else {
 

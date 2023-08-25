@@ -64,6 +64,7 @@ struct Inventory {
 extern struct Inventory playerInventory;
 extern struct Location* current_location;
 
+void first_floor_loop(struct Location* current_location, struct Inventory* playerInventory);
 void print_location(struct Location* loc);
 void addItemToInventory(struct Inventory* inv, int item);
 void removeItemFromInventory(struct Inventory* inv, int item);

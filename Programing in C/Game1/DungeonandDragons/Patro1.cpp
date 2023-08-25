@@ -1,29 +1,31 @@
-#include <iostream>
-#include <stdio.h>
-#include <string.h>
-#include <conio.h>
-#include <stdlib.h>
 #include "Patro1.h"
-#include"DungeonandDragons.h"
-
+#include "DungeonandDragons.h"
 
 void first_floor_loop(struct Location* current_location, struct Inventory* playerInventory) {
 
 
-    printf("Adresa current_location v Patro1.c: %p\n", (void*)current_location);
+    struct Location
+        stairs1,
+        laundry,
+        servant_room,
+        stairs2,
+        entrance;
+
+    struct Location* current_locationP1 = current_location;
 
     char input[MAX_INPUT];
     int counter = 0; // pocita mi první vchod do mistnosti abych mohl pokracovat dal
     int dizaster = 0;
     int flow = 0;
 
-     printf("Adresa current_location v Patro1.c: %p\n", (void*)current_location);
-     
+    printf("Adresa current_location v PATRO1.cpp: %p\n", (void*)current_locationP1);
+    if (current_locationP1 == &entrance)printf("ahoj");
+
     while (1) {
 
-        if (current_location == &stairs1) {
+        if (current_locationP1 == &stairs2) {
 
-            printf(":-D ");
+            printf("test");
         }
         else {
 
