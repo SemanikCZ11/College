@@ -49,7 +49,7 @@ void Second_floor_loop(struct Location* current_location, struct Inventory* play
 
                     if (!hasItemInInventory(playerInventory, 4)) {
                         printf("\nI kdy  se snazis, jak se snazis bez klicu to rozhodne nepujde, chtelo by nekde nejake sehnat\n\n"
-                            "Zatim se muzes porozhlednout "
+                            "Zatim se muzes porozhlednout\n "
                             "1(jdi dopredu) - Pokoj pro hosty\n"
                             "2(jdi doprava) - Koupelna\n"
                             "3(jdi doleva)  - zamceny vstup do veze\n");

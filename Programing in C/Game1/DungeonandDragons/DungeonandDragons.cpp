@@ -131,7 +131,7 @@ int main() {
         treasure_room;
 
     // inventory hráče pro další interkaci 
-    struct Inventory playerInventory { 0, 0, 0, 0, 0, 0, 0, 0, 0 , 0, 0, 0};// nastaveni inventare na 0 znamena ze nic po kapsach nema
+    struct Inventory playerInventory { 0, 1, 0, 1, 0, 0, 0, 0, 0 , 1, 1, 1, 0};// nastaveni inventare na 0 znamena ze nic po kapsach nema
     kitchen.chef_distracted = 0;// interakce s kucharem dokud ho nerozptilim nemužu se pohnout jinym smerem v kuchyni
 
     //----------------Vstupni hala---------------------
@@ -277,7 +277,7 @@ int main() {
  
      ///-------------------------Secret door 1
      secret_door1.description = "\nKonecne jsem se dostal to techto zpropadenych dveri zatim vsechno vypada ze bude bezpecne ale radeji budu postupovat obezretne neni cas na zadne chyby, porozhlednu se po mistnosti jestli neco neuvidimi"
-                                " naproti vidim obrovske zrcalo ve zlatem ramu primo uprostred zdi kolem nic neni, v levo je nejaky stul kde jsou pohazene knihy a ruzne svitky a horici svicka na pravo vidim  hromadu krabic s napisem obrazy\n\n";
+                                " naproti vidim obrovske zrcalo ve zlatem ramu primo uprostred zdi kolem nic neni, v levo je nejaky stul kde jsou pohazene knihy a ruzne svitky a horici svicka na pravo vidim  hromadu krabic s napisem obrazy\n\n"
                                 "1(jdi dopredu) - Tajemne zrcadlo 1\n"
                                 "2(jdi doprava) - Jdi ke krabicim\n"
                                 "3(jdi doleva)  - Jdi ke stolu 2\n";
@@ -302,13 +302,15 @@ int main() {
      // -------------------------------office 
 
      office.description = "\nVejdes do mistnosti ktera ke celkem upravena, komorna atmosfera doplnuje kourici osobu v zadu v mistnosti jak pise do nejakeho deniku, porozhlednes se a je to pekna mistnost se spousty knih, krbem par obrazy"
-                          "a nekolika hlavami ulovenych zvirat, podle pohledu pana ty zvirata neulovil on , ten by neublizil ani mouse ,vzdyt by ani neudrzel zbran jak je hubeny\n\n";
-                          "1(jdi dopredu) - Dojdi k Majordomovi 1\n"
+                          "a nekolika hlavami ulovenych zvirat, podle pohledu pana ty zvirata neulovil on , ten by neublizil ani mouse ,vzdyt by ani neudrzel zbran jak je hubeny\n\n"
+                          "1(jdi dopredu) - Dojdi k Majordomovi \n"
                           "2(jdi doprava) - Podivej se ke knihovne \n"
-                          "3(jdi doleva)  - Jdi se podivat na vytrinu 2\n";
+                          "3(jdi doleva)  - Jdi se podivat na vytrinu \n";
      office.forward_description = "\nKdyz prijdes k majordomovi s usmevem se na tebe podiva vynda fajfku’ ’ ’ ’ ’ ’ ’ a rika, dobry den mladiku uz dlouho ke me zadna navsteva nezavitala, moc lidi uz jsem nechodi "
                                   ", vydávam prikazi telefonem a jidlo mi sem vozi vytahem, proto jsem moc rád ze te vidim ja jsem Majordomus ZANOVIC DE LIPOS, aby jsi vedel mam rad hadanky pokud jsi budes chtit semnou zahrat "
-                                  "prozradim ti tajemstvi o tomto dome, co na to rikas???\n\n";
+                                  "prozradim ti tajemstvi o tomto dome, co na to rikas???\n\n"
+                                  "1(otazka) - Jdeme do toho \n"
+                                  "2(jdi zpatky) - Proste bezeslova odejdi \n";
      office.left_description = "\nVydas se doleva podivat se na vytriny plne trofeji a poct patrici majordomovi jsou moc pekne a je videt ze se o ne stara a je na ne hrdy , dokonce je tady medaile cti z prvni svetove valky"
                                ", nevypdada ze byl ve valce je to zajimave ,ale jdu se podivat dal \n\n";
      office.right_description = "\nJedna z mnoha knihoven kterich je tu spousta , ale tyhle knihy jsou pekne udrzovane a je videt ze i pouzivane, asi to bude vasnivi ctenar, sposuta knih je tu o svetovych valkach,asi milovnik historie"
