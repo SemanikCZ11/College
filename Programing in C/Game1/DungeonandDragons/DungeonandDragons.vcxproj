@@ -129,10 +129,14 @@
   <ItemGroup>
     <ClCompile Include="DungeonandDragons.cpp" />
     <ClCompile Include="Patro1.cpp" />
+    <ClCompile Include="Patro2.cpp" />
+    <ClCompile Include="Tower.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DungeonandDragons.h" />
     <ClInclude Include="Patro1.h" />
+    <ClInclude Include="Patro2.h" />
+    <ClInclude Include="Tower.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

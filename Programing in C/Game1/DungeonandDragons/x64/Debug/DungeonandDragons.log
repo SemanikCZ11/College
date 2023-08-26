@@ -1,5 +1,9 @@
-﻿  Patro1.cpp
-C:\Users\lseme\source\repos\Game1\DungeonandDragons\Patro1.cpp(11,9): warning C4101: stairs2: neodkazovaná lokální proměnná
-C:\Users\lseme\source\repos\Game1\DungeonandDragons\Patro1.cpp(8,9): warning C4101: stairs1: neodkazovaná lokální proměnná
-C:\Users\lseme\source\repos\Game1\DungeonandDragons\Patro1.cpp(10,9): warning C4101: servant_room: neodkazovaná lokální proměnná
-  DungeonandDragons.vcxproj -> C:\Users\lseme\source\repos\Game1\x64\Debug\DungeonandDragons.exe
+﻿  DungeonandDragons.cpp
+C:\Škola VSFS\VSFS -2. ročník\Programovani C\Game1\DungeonandDragons\DungeonandDragons.cpp(469,32): warning C4566: Znak, který reprezentuje universal-character-name \uAC8C, nemůže být reprezentovaný v aktuální znakové stránce (1250).
+C:\Škola VSFS\VSFS -2. ročník\Programovani C\Game1\DungeonandDragons\DungeonandDragons.cpp(469,32): warning C4566: Znak, který reprezentuje universal-character-name \uC784, nemůže být reprezentovaný v aktuální znakové stránce (1250).
+C:\Škola VSFS\VSFS -2. ročník\Programovani C\Game1\DungeonandDragons\DungeonandDragons.cpp(469,32): warning C4566: Znak, který reprezentuje universal-character-name \uC885, nemůže být reprezentovaný v aktuální znakové stránce (1250).
+C:\Škola VSFS\VSFS -2. ročník\Programovani C\Game1\DungeonandDragons\DungeonandDragons.cpp(469,32): warning C4566: Znak, který reprezentuje universal-character-name \uB8CC, nemůže být reprezentovaný v aktuální znakové stránce (1250).
+C:\Škola VSFS\VSFS -2. ročník\Programovani C\Game1\DungeonandDragons\DungeonandDragons.cpp(127,9): warning C4101: treasure_room: neodkazovaná lokální proměnná
+  Patro2.cpp
+  Generování kódu...
+  DungeonandDragons.vcxproj -> C:\Škola VSFS\VSFS -2. ročník\Programovani C\Game1\x64\Debug\DungeonandDragons.exe

@@ -45,6 +45,8 @@ void addItemToInventory(struct Inventory* inv, int item) {
     case 9: inv->disguise = 1; break;
     case 10: inv->biscuit = 1; break;
     case 11: inv->flower = 1;break;
+    case 12: inv->compelet_code = 1; break;
+    case 13: inv->golden_snitch = 1; break;
     }
 }
 //odstranění z inventaře při použití
@@ -61,6 +63,8 @@ void removeItemFromInventory(struct Inventory* inv, int item) {
     case 9: inv->disguise = 0; break;
     case 10: inv->biscuit = 0; break;
     case 11: inv->flower = 0;break;
+    case 12: inv->compelet_code = 0; break;
+    case 13: inv->golden_snitch = 0; break;
     }
 }
 // pokud mám v inventaři interakce pro dalši postup v mistnosti
@@ -77,6 +81,8 @@ int hasItemInInventory(struct Inventory* inv, int item) {
     case 9: return inv->disguise;
     case 10: return inv->biscuit;
     case 11: return inv->flower;
+    case 12: return inv->compelet_code;
+    case 13: return inv->golden_snitch;
     }
     return 0; // Pokud předmět neexistuje
 }
@@ -94,6 +100,8 @@ void showInventory(struct Inventory* inv) {
     if (inv->disguise) printf("- prevlek\n");
     if (inv->biscuit) printf("- susenka\n");
     if (inv->flower) printf("- Kvetina\n");
+    if (inv->compelet_code) printf("- Desifrovany Kod");
+    if (inv->golden_snitch) printf("-Zlatonka");
 }
 // definice ducha
 struct Ghost {
@@ -123,7 +131,7 @@ int main() {
         treasure_room;
 
     // inventory hráče pro další interkaci 
-    struct Inventory playerInventory { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };// nastaveni inventare na 0 znamena ze nic po kapsach nemam
+    struct Inventory playerInventory { 0, 0, 0, 0, 0, 0, 0, 0, 0 , 0, 0, 0};// nastaveni inventare na 0 znamena ze nic po kapsach nema
     kitchen.chef_distracted = 0;// interakce s kucharem dokud ho nerozptilim nemužu se pohnout jinym smerem v kuchyni
 
     //----------------Vstupni hala---------------------
@@ -210,17 +218,17 @@ int main() {
                               "1(jdi dopredu) - Jdi ke skrini\n"
                               "2(jdi doprava) - Postele\n"
                               "3(jdi doleva)  - Obyvak\n";
-    servant_room.forward_description = "\nKdyz prijdes dopredu ke skrini tak ji otevres ale nic zajimaveho v tom neni na toaletce lezi tuny makeupu par minci a flasky od vina v zrcadlu vidis jak se ti pokojská prohlizi jestli ji asi neco neukradnes"
+    servant_room.forward_description = "\nKdyz prijdes dopredu ke skrini tak ji otevres ale nic zajimaveho v tom neni na toaletce lezi tuny makeupu par minci a flasky od vina v zrcadlu vidis jak se ti pokojska prohlizi jestli ji asi neco neukradnes"
                                        "ale jinak tady nic potrebneho neni\n\n ";
     servant_room.left_description = "\nKdyz se vydas na levo vidis stare sedacky, ty uz zazili lepsi casi navic smrdi nejakou kockou smichanou z hamburgrem, stary koberec a na stolku spoustu nedopalku cigaret, tady se asi hodne cvadi"
                                     "televize je taky stará a barvy na ni jsou vybledle,ale zrovna u serialu esmeralda je to stejne jedno Chose armando zrovna slepej nikam jde :-D, radsi bych jsi tam dal hokej, ale nejsem tady abych se koukla na Tv\n\n";
-    servant_room.right_description = "\nJde se jeste podivat dopredu, spoustu posteli , napocital jsem jich 6  skrine a stolky  jedine zajimave jsou ty krasné hodiny, absolutne se nehodi do takoveho pokoje, ty maji urcite i nejakou cenu"
+    servant_room.right_description = "\nJdes se jeste podivat doprava, spoustu posteli , napocital jsem jich 6  skrine a stolky  jedine zajimave jsou ty krasne hodiny, absolutne se nehodi do takoveho pokoje, ty maji urcite i nejakou cenu"
                                      "Kdyz se ale na hodiny podivas bliz na rucicce je nejaky papirek, lehce se podivas jak te porad pokojská sleduje a premyslis jak udelat to aby jsi si te nevsimla nebo te nevyhodila\n\n";
     servant_room.back =&stairs1;
     //----------------------Shody do 2 patrta -----------------------------Zacina soubor 2 patra 
-    stairs2.description = "\n Vyjdes do druheho patra, tyhle schody uz jsou celkem prijemne par shodu a jsi nahore , nevypadaji uz tak strasidelne jako ty z prizemi, koberec je udrzovany a nikdy zadna pavucina "
-                          ", kdyz se priskokem zhopnes az nahoru rozhlednes jse na vsechny strany ve predu je tvuj pokoj dvere vypadaji masivne a ciste,na pravo je vchod do koupelny a na levé strane staré ale presto hezké dvere z napisem"
-                          "VSTUP DO VEZE tam se urcite skrivá ten zahadny poklad pomyslím jsi \n\n";
+    stairs2.description = "\n Vyjdes do druheho patra, tyhle schody uz jsou celkem prijemne par shodu a jsi nahore , nevypadaji uz tak strasidelne jako ty z prizemi, koberec je udrzovany a nikde zadna pavucina "
+                          ", kdyz se priskokem zhopnes az nahoru rozhlednes jse na vsechny strany ve predu je tvuj pokoj dvere vypadaji masivne a ciste,na pravo je vchod do koupelny a na levé strane staré ale presto hezké dvere s napisem "
+                          " VSTUP DO VEZE tam se urcite skrivá ten zahadny poklad pomyslim jsi \n\n"
                           "1(jdi dopredu) - Pokoj pro hosty\n"
                           "2(jdi doprava) - Koupelna\n"
                           "3(jdi doleva)  - vstup do veze\n";
@@ -232,20 +240,20 @@ int main() {
     //______________________Nastevnicky pokoj_____________________________________________
     guest_room.description = "\n Tvuj pokoj vypada celkem dobre, je tady krasna velka postel s nebesy  cisté rucniky a povleceni ,v krbu se lehce houpe plamen a praska drevo a celkove to pusoby prijemne. Naproti me jsou moje kufry hned vedle skrine"
                              " a na stolu lezi velká flaska sampanskeho. Na levo u krbu jsou dve kresla ,nocni stolek a knihovnma a krásny obraz nejakeho slechtice v pravo hned u kraje postele je srovnany zupan , papuce "
-                             "a ovladac na televizy\n\n";
+                             "a ovladac na televizy\n\n"
                              "1(jdi dopredu) - Jdi se podivat na kufry\n"
                              "2(jdi doprava) - Postel\n"
                              "3(jdi doleva)  - Jdi ke krbu\n";
     guest_room.forward_description = "\nKdyz se jdu podivat jestli mam vsechny kufry tak zakopnu o nejake klice je to velky svazek asi patri pokojske nebo nekomu ze sluzebnictva, no prozatim jsi je necham, treba se jeste budou hodit"
                                       ",nicmene kufry mam vsechny , dokonce je tam i moje susenka co jsem jsi schovaval, vezmu si ji na pozdeji\n\n";
-    guest_room.left_description = "\nNachvili jsem si sedl na pohodlna kresla a jenom se koukal jak plaminek preskakuje z jednoho dreva na druhy, je to uklidnujici nachvilku se zdrzim";
-    guest_room.right_description = " Prijdu se podivat k posteli a je opravdu krasne mekka, uzasna. Zupane je jeste teply, asi ho zrovna nekdo prinesl na polstari nechybi cokoladka a male zvykacky, hned vedle postele je malí bar "
-                                   " je celkem rozmanity,mozná jsi pak neco vezmu :-D ";
+    guest_room.left_description = "\nNachvili jsem si sedl na pohodlna kresla a jenom se koukal jak plaminek preskakuje z jednoho dreva na druhy, je to uklidnujici nachvilku se zdrzim!!\n\n";
+    guest_room.right_description = "\nPrijdu se podivat k posteli a je opravdu krasne mekka, uzasna. Zupane je jeste teply, asi ho zrovna nekdo prinesl na polstari nechybi cokoladka a male zvykacky, hned vedle postele je malí bar "
+                                   " je celkem rozmanity,mozná jsi pak neco vezmu :-D\n\n ";
     guest_room.back = &stairs2;
     
     ///----------------------------Koupelna---------
-     bathroom.description = "\n Prijdes do koupelny, ktera je velice prostorna a cista vsude je to sami chrom pozlaceny kohoutky ve tvaru labute, sprcha velká jako muj byt a prijemne svetlo ktere reaguje na vstup do mistnosti"
-                            "to je rozhodne ta nejlepsi mistnost v celem objektu. Kdyz se porozhlednes tak na pravo jsou 4 velká zrcadla vsechny jsou stejne az na jedno,pod nimy jsou umyvadla a rucniky v levo je pekna toaleta\n\n ";
+     bathroom.description = "\nPrijdes do koupelny, ktera je velice prostorna a cista vsude je to sami chrom pozlaceny kohoutky ve tvaru labute, sprcha velka jako muj byt a prijemne svetlo ktere reaguje na vstup do mistnosti"
+                            "to je rozhodne ta nejlepsi mistnost v celem objektu. Kdyz se porozhlednes tak na pravo jsou 4 velka zrcadla vsechny jsou stejne az na jedno,pod nimy jsou umyvadla a rucniky v levo je pekna toaleta\n\n"
                             "1(jdi dopredu) - jdi ke sprse\n"
                             "2(jdi doprava) - jdi k zrcadlu\n"
                             "3(jdi doleva)  - Jdi na zachod\n";
@@ -258,7 +266,7 @@ int main() {
      ///----------Vstup do veze-----------------------------Zacina soubor 3
      tower_entrance.description = "\n Ha konecne jsem vstoupil do veze. Tady me ceka urcite to co hledam, to o cem mi najezdni mistr povidal tam u nas v hospode, nekonecny poklad ktery ma vetsi cenu nez korunovacni klenoty."
                                   "porozhlednes se po mistnosti a vidis 3 stejne dvere neni na nich nic jineho nez napisy TAJEMNE DVERE , TAJEMNE DVERE a KANCELAR hm zajimave, budu to asi muset prozkoumat postupne,a uvidim co zjistim "
-                                  "doufam ze za jednemi Tajemnymi dveri na me ceka ten poklad a ja si ho budu moct odnest\n\n";
+                                  "doufam ze za jednemi Tajemnymi dveri na me ceka ten poklad a ja si ho budu moct odnest\n\n"
                                   "1(jdi dopredu) - Tajemne dvere 1\n"
                                   "2(jdi doprava) - kancelar\n"
                                   "3(jdi doleva)  - Tajemne dvere 2\n";
@@ -282,7 +290,7 @@ int main() {
      secret_door1.back = &tower_entrance;
 
      //-----------------------Secret door 2
-     secret_door2.description = "\nVesel jsi do mistnosti nazvane tajemne dvere, je to celkem prazdna mistnost pred tebou je akorat nejaky sloupek a na nem nejaka znacka, jinak okolo nic moc neni\n\n";
+     secret_door2.description = "\nVesel jsi do mistnosti nazvane tajemne dvere, je to celkem prazdna mistnost pred tebou je akorat nejaky sloupek a na nem nejaka znacka, jinak okolo nic moc neni\n\n"
                                 "1(jdi dopredu) - Jdi ke sloupku 1\n"
                                 "2(jdi doprava) - Jdi doprava \n"
                                 "3(jdi doleva)  - jdi doleva 2\n";
@@ -322,14 +330,18 @@ int main() {
     int light = 0;
     int fakeerror = 0;
 
-    first_floor_loop(current_location, &playerInventory);//test predavani lokace a inventare
+    struct Location* global_current_location = NULL;
+
 
     while (1) {
 
         if (current_location == &stairs1) {
 
-            printf("Adresa current_location v main.c: %p\n", (void*)current_location);
-            first_floor_loop(current_location, &playerInventory);
+            struct Location* global_current_location = &stairs1;
+            first_floor_loop(global_current_location, &playerInventory);
+            current_location = current_location->back;
+            print_location(current_location);
+            counter = 0;
         }
         else {
 
@@ -467,7 +479,10 @@ int main() {
                 else if (strncmp(input, "Rozsvit", 7) == 0 && hasItemInInventory(&playerInventory, 1) && hasItemInInventory(&playerInventory, 3))// Podminka pro pouziti svetla pouze v cellar
                 {
                     printf("\nVzal jsi svoji pochoden a zapalovac co jsi nasel v kuchyny a rozsvitil najendou se celej sklep zalil svetlem a ty vidis hrozny neporadek na levo nejaky stroj kterej obcas zajiskri"
-                        " a hromadu ostrych a nebezpecnich odrezku, na levo je velka dira a za ni je nejaky stary pracovni stul. Ve predu jsou dva starodavne sloupy. Vypada to tady desive zkusim se porozhlednout\n\n");
+                        " a hromadu ostrych a nebezpecnich odrezku, na levo je velka dira a za ni je nejaky stary pracovni stul. Ve predu jsou dva starodavne sloupy. Vypada to tady desive zkusim se porozhlednout\n\n"
+                        "1(jdi dopredu) - Sloupy\n"
+                        "2(jdi doprava) - Neznami stroj\n"
+                        "3(jdi doleva)  - Pracovni stul\n");
                     light = 1;
                     continue;
                 }
@@ -492,7 +507,7 @@ int main() {
                             ghost.hasAsked = 1;
                         }
                         else {
-                            printf("\nDuch říká: 'To neni spravne!'\n\n");
+                            printf("\nDuch rika: 'To neni spravne!'\n\n");
                         }
                     }
                 }

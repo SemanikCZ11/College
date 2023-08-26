@@ -24,6 +24,8 @@ struct Location {
     int treasure;
     int visited;
     int chef_distracted; // flag pro rozptýlení kuchaøe 
+    int TheMaid;
+    int button;
 
 };
 // vìci které pouužívám
@@ -40,6 +42,8 @@ struct Inventory {
     int disguise;
     int biscuit;
     int flower;
+    int compelet_code;
+    int golden_snitch;
 };
 
 
@@ -60,11 +64,15 @@ struct Inventory {
     secret_door2,
     treasure_room;
 
- 
+extern int counter;
 extern struct Inventory playerInventory;
 extern struct Location* current_location;
+extern struct Location* global_current_locationP1;
+extern struct Location* global_current_locationP2;
+extern struct Location* global_current_locationP3;
 
-void first_floor_loop(struct Location* current_location, struct Inventory* playerInventory);
+void Tower_floor_loop(struct Location* current_location, struct Inventory* playerInventory);
+void Second_floor_loop(struct Location* current_location, struct Inventory* playerInventory);
 void print_location(struct Location* loc);
 void addItemToInventory(struct Inventory* inv, int item);
 void removeItemFromInventory(struct Inventory* inv, int item);

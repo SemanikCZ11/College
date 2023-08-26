@@ -6,5 +6,4 @@
 
 void first_floor_loop(struct Location* current_location, struct Inventory* playerInventory);
 
-
 #endif 
