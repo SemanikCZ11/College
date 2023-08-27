@@ -1,0 +1,17 @@
+﻿<Window x:Class="Cviceni_2.VideoPlayerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cviceni_2"
+        mc:Ignorable="d"
+        Title="Přehrávač videa" Height="400" Width="600">
+    <Grid>
+        <MediaElement x:Name="mediaElement" LoadedBehavior="Manual" UnloadedBehavior="Stop" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="201,0,218,28" Height="37">
+            <Button Content="Spuštění" Click="Play_Click" Margin="5" />
+            <Button Content="Pozastavení" Click="Pause_Click" Margin="5" />
+        </StackPanel>
+        <Slider x:Name="slider" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Margin="10" Minimum="0" Maximum="1" ValueChanged="Slider_ValueChanged" />
+    </Grid>
+</Window>

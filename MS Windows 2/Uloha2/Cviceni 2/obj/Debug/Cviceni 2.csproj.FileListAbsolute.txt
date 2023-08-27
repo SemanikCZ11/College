@@ -1,0 +1,35 @@
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\bin\Debug\Cviceni 2.exe.config
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\bin\Debug\Cviceni 2.exe
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\bin\Debug\Cviceni 2.pdb
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\obj\Debug\Cviceni 2.csproj.AssemblyReference.cache
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\obj\Debug\MainWindow.g.cs
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\obj\Debug\VideoPlayerWindow.g.cs
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\obj\Debug\App.g.cs
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\obj\Debug\Cviceni 2_MarkupCompile.cache
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\obj\Debug\Cviceni 2_MarkupCompile.lref
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\obj\Debug\MainWindow.baml
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\obj\Debug\VideoPlayerWindow.baml
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\obj\Debug\Cviceni 2.g.resources
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\obj\Debug\Cviceni_2.Properties.Resources.resources
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\obj\Debug\Cviceni 2.csproj.GenerateResource.cache
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\obj\Debug\Cviceni 2.csproj.CoreCompileInputs.cache
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\obj\Debug\Cviceni 2.exe
+C:\Users\lseme\source\repos\Uloha 1\Cviceni 2\obj\Debug\Cviceni 2.pdb
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\bin\Debug\Cviceni 2.exe.config
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\bin\Debug\Cviceni 2.exe
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\bin\Debug\Cviceni 2.pdb
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\obj\Debug\Cviceni 2.csproj.AssemblyReference.cache
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\obj\Debug\Cviceni 2.csproj.SuggestedBindingRedirects.cache
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\obj\Debug\MainWindow.g.cs
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\obj\Debug\VideoPlayerWindow.g.cs
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\obj\Debug\App.g.cs
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\obj\Debug\Cviceni 2_MarkupCompile.cache
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\obj\Debug\Cviceni 2_MarkupCompile.lref
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\obj\Debug\MainWindow.baml
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\obj\Debug\VideoPlayerWindow.baml
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\obj\Debug\Cviceni 2.g.resources
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\obj\Debug\Cviceni_2.Properties.Resources.resources
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\obj\Debug\Cviceni 2.csproj.GenerateResource.cache
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\obj\Debug\Cviceni 2.csproj.CoreCompileInputs.cache
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\obj\Debug\Cviceni 2.exe
+D:\Škola\Vysoká škola Finanční a Správní\VSFS\4.Semester\MS WIndows\DU\Uloha2\Cviceni 2\obj\Debug\Cviceni 2.pdb
