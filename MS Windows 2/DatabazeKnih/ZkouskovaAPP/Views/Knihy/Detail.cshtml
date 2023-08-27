@@ -1,0 +1,13 @@
+﻿@*
+   @model ZkouskovaAPP.Models.Books
+*@
+@{
+    @model ZkouskovaAPP.Models.Books
+}
+<h1>Detail knihy: @Model.Nazev</h1>
+
+<p>Autor: @Model.Autor</p>
+<p>Počet stran: @Model.PocetStran</p>
+<p>Jazyk: @Model.Jazyk</p>
+<p>Datum vydání: @Model.DatumVydani.ToShortDateString()</p>
+<p>Informace: @Model.Informace</p>

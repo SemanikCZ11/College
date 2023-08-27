@@ -1,0 +1,39 @@
+﻿@*
+  
+*@
+@{
+    ViewData["Title"] = "Uprav Zaznam";
+    @model ZkouskovaAPP.Models.Books
+}
+
+
+<h1>Upravit knihu</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="ID" />
+    <div class="form-group">
+        <label asp-for="Nazev">Název</label>
+        <input asp-for="Nazev" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Autor">Autor</label>
+        <input asp-for="Autor" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="PocetStran">Počet stran</label>
+        <input asp-for="PocetStran" type="number" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Jazyk">Jazyk</label>
+        <input asp-for="Jazyk" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="DatumVydani">Datum vydání</label>
+        <input asp-for="DatumVydani" type="date" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Informace">Informace</label>
+        <textarea asp-for="Informace" class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Uložit</button>
+</form>

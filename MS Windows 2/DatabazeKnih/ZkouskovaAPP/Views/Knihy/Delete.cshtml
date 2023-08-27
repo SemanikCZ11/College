@@ -1,0 +1,17 @@
+﻿@*
+   
+*@
+@{
+    ViewData["Title"] = "Smaz";
+    @model ZkouskovaAPP.Models.Books
+}
+
+
+<h1>Smazat knihu: @Model.Nazev</h1>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="ID" />
+    <p>Opravdu chcete smazat tuto knihu?</p>
+    <button type="submit" class="btn btn-danger">Smazat</button>
+    <a asp-action="Index" class="btn btn-secondary">Zrušit</a>
+</form>
